@@ -54,6 +54,18 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 8: {genre8}");
             Console.WriteLine();
             #endregion
+            #region Task 9
+            string genreText9 = "Mystery";
+            bool isValid = Enum.TryParse(genreText9, out Genre genre9);
+            if (!isValid)
+            {
+                Console.WriteLine("Task 9: Unknown genre");
+            }
+            else
+            {
+                Console.WriteLine($"Task 9: {genre9}");
+            }
+            #endregion
         }
     }
 }
