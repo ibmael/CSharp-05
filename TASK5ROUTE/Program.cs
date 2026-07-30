@@ -18,6 +18,12 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 2: {book2.copiesInStock}");
             Console.WriteLine();
             #endregion
+            #region Task 3
+            Book book3 = new Book();
+            book3.Title = "C# Programming";
+            Console.WriteLine($"Task 3: {book3.Title}");
+            Console.WriteLine();
+            #endregion
         }
     }
 }
