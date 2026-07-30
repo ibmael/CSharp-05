@@ -30,6 +30,12 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 4: {book4.Genre}");
             Console.WriteLine();
             #endregion
+            #region Task 5
+            Console.WriteLine($"Task 5 - Fiction: {(int)Genre.Fiction}");
+            Console.WriteLine($"Task 5 - NonFiction: {(int)Genre.NonFiction}");
+            Console.WriteLine($"Task 5 - Science: {(int)Genre.Science}");
+            Console.WriteLine();
+            #endregion
         }
     }
 }
