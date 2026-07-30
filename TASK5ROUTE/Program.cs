@@ -36,6 +36,12 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 5 - Science: {(int)Genre.Science}");
             Console.WriteLine();
             #endregion
+            #region Task 6
+            int genreNumber = 1;
+            Genre genree = (Genre)genreNumber;
+            Console.WriteLine($"Task 6: {genree}");
+            Console.WriteLine();
+            #endregion
         }
     }
 }
