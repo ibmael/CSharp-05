@@ -48,6 +48,12 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 7: {genreString}");
             Console.WriteLine();
             #endregion
+            #region Task 8
+            string genreText8 = "Science";
+            Genre genre8 = (Genre)Enum.Parse(typeof(Genre), genreText8);
+            Console.WriteLine($"Task 8: {genre8}");
+            Console.WriteLine();
+            #endregion
         }
     }
 }
