@@ -24,6 +24,12 @@ namespace TASK5ROUTE
             Console.WriteLine($"Task 3: {book3.Title}");
             Console.WriteLine();
             #endregion
+            #region Task 4
+            Book book4 = new Book();
+            book4.Genre = Genre.Science;
+            Console.WriteLine($"Task 4: {book4.Genre}");
+            Console.WriteLine();
+            #endregion
         }
     }
 }
