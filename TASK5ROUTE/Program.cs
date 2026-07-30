@@ -38,8 +38,14 @@ namespace TASK5ROUTE
             #endregion
             #region Task 6
             int genreNumber = 1;
-            Genre genree = (Genre)genreNumber;
-            Console.WriteLine($"Task 6: {genree}");
+            Genre genre6 = (Genre)genreNumber;
+            Console.WriteLine($"Task 6: {genre6}");
+            Console.WriteLine();
+            #endregion
+            #region Task 7
+            Genre genre7 = Genre.Fiction;
+            string genreString = genre7.ToString();
+            Console.WriteLine($"Task 7: {genreString}");
             Console.WriteLine();
             #endregion
         }
